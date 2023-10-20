@@ -9,11 +9,66 @@
 
 body{
     font-family: Roboto, Verdana, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+body>* {
+    flex: auto;
 }
 
 .header,
 .footer {
     background-color: #1f2937;
+}
+
+.header {
+    padding: 15px 200px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-between;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.nav>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.hero-container {
+    display: flex;
+    height: 220px;
+}
+
+.hero-container>* {
+    flex: 1;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 32px;
 }
 
 .hero-title {
@@ -28,10 +83,33 @@ body{
     color: #e5e7eb;
 }
 
+.hero-btn {
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-btn:active {
+    background-color:#3881f63f;
+}
+
 .hero-btn,
 .sign-up-btn>button,
 .sign-up-container {
     background-color: #3882f6;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img>img {
+    height: 100%;
+    width: auto;
 }
 
 .info-title {
