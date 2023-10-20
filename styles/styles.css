@@ -129,7 +129,7 @@ body>* {
 .info-cards {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 128px;
 }
 
 .info-card {
