@@ -178,3 +178,35 @@ body>* {
     text-align: end;
     font-weight: 800;
 }
+
+.sign-up {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    padding: 25px 100px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.sign-up-title,
+.sign-up-text {
+    color: white;
+}
+
+.sign-up-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-btn>button {
+    padding: 8px 24px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
