@@ -210,3 +210,11 @@ body>* {
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.footer {
+    height: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
