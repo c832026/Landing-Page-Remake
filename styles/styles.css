@@ -1,0 +1,52 @@
+/* Import Roboto font for default */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Verdana, Arial, sans-serif;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text,
+.nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-btn,
+.sign-up-btn>button,
+.sign-up-container {
+    background-color: #3882f6;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
